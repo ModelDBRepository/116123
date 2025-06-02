@@ -1,48 +1,48 @@
-<html><pre>
 This is the readme for the model associated with the paper:
 
 Prescott SA, De Koninck Y, Sejnowski TJ (2008) Biophysical Basis for
 Three Distinct Dynamical Mechanisms of Action Potential
-Initiation. PLoS Comput. Biol. 4(10): e1000198
- 
-Abstract: Transduction of graded synaptic input into trains of
+Initiation. *PLoS Comput. Biol.* 4(10): e1000198
+
+### Abstract
+
+Transduction of graded synaptic input into trains of
 all-or-none action potentials (spikes) is a crucial step in neural
-coding.  Hodgkin identified three classes of neurons with
+coding. Hodgkin identified three classes of neurons with
 qualitatively different analogue-to-digital transduction properties.
 Despite widespread use of this classification scheme, a generalizable
-explanation of its biophysical basis has not been described.  We
+explanation of its biophysical basis has not been described. We
 recorded from spinal sensory neurons representing each class and
-reproduced their transduction properties in a minimal model.  Using
+reproduced their transduction properties in a minimal model. Using
 phase plane and bifurcation analysis, each class of excitability was
-shown to derive from distinct spike initiating dynamics.  Excitability
+shown to derive from distinct spike initiating dynamics. Excitability
 could be converted between all three classes by varying single
 parameters; moreover, several parameters, when varied one at a time,
-had functionally equivalent effects on excitability.  From this, we
+had functionally equivalent effects on excitability. From this, we
 conclude that the spike initiating dynamics associated with each of
 Hodgkin's classes represent different outcomes in a nonlinear
 competition between oppositely directed, kinetically mismatched
-currents.  Class 1 excitability occurs through a saddle-node on
+currents. Class 1 excitability occurs through a saddle-node on
 invariant circle bifurcation when net current at perithreshold
-potentials is inward (depolarizing) at steady state.  Class 2
+potentials is inward (depolarizing) at steady state. Class 2
 excitability occurs through a Hopf bifurcation when, despite net
 current being outward (hyperpolarizing) at steady state, spike
 initiation occurs because inward current activates faster than outward
-current.  Class 3 excitability occurs through a
+current. Class 3 excitability occurs through a
 quasi-separatrix-crossing when fast-activating inward current
 overpowers slow-activating outward current during a stimulus
 transient, although slow-activating outward current dominates during
-constant stimulation.  Experiments confirmed that different classes of
+constant stimulation. Experiments confirmed that different classes of
 spinal lamina I neurons express the subthreshold currents predicted by
 our simulations and, further, that those currents are necessary for
-the excitability in each cell class.  Thus, our results demonstrate
+the excitability in each cell class. Thus, our results demonstrate
 that all three classes of excitability arise from a continuum in the
-direction and magnitude of subthreshold currents.  Through detailed
+direction and magnitude of subthreshold currents. Through detailed
 analysis of the spike initiating process, we have explained a
 fundamental link between biophysical properties and qualitative
 differences in how neurons encode sensory input.
 
-
-Model Notes:
+### Model Notes
 
 Models demonstrate how action potentials can be generated through
 different dynamical mechanisms depending on the direction and
@@ -57,16 +57,19 @@ plane.
 
 To increase the biological realism of the model, we split the recovery
 variable (w) into two parts (y and z) which each control slightly
-different currents (see Figure 4 in paper).  Try varying gsub and
+different currents (see Figure 4 in paper). Try varying gsub and
 Vsub.
 
 Noise is not included in these models but can be added by following
-the notes included in the code.  The code contains numerous other
+the notes included in the code. The code contains numerous other
 comments that will help explain the model.
 
 For more information about XPP, visit
-<a href="http://www.scholarpedia.org/article/XPPAUT">http://www.scholarpedia.org/article/XPPAUT</a> or
-<a href="http://www.math.pitt.edu/~bard/xpp/xpp.html">http://www.math.pitt.edu/~bard/xpp/xpp.html</a>
+[http://www.scholarpedia.org/article/XPPAUT](http://www.scholarpedia.org/article/XPPAUT) or
+[http://www.math.pitt.edu/~bard/xpp/xpp.html](http://www.math.pitt.edu/~bard/xpp/xpp.html)
 
-Novemeber 14th, 2008: smaller sigma instead of sigma_inoise in comments update
-</pre></html>
+November 14th, 2008: smaller sigma instead of sigma_inoise in comments update
+
+---
+
+2025-06-02: Converted README to Markdown.
