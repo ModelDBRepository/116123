@@ -68,8 +68,7 @@ For more information about XPP, visit
 [http://www.scholarpedia.org/article/XPPAUT](http://www.scholarpedia.org/article/XPPAUT) or
 [http://www.math.pitt.edu/~bard/xpp/xpp.html](http://www.math.pitt.edu/~bard/xpp/xpp.html)
 
+---
 November 14th, 2008: smaller sigma instead of sigma_inoise in comments update
 
----
-
-2025-06-02: Converted README to Markdown.
+June 2nd, 2025: Converted README to Markdown.
